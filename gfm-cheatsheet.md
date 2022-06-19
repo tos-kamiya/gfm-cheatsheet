@@ -34,7 +34,7 @@ span.mcode {
 
 **行内埋め込みコード** <span class="mcode">&#96;コード&#96;</span> (バッククオートで囲う）
 
-**引用** 行頭で <span class="mcode">>␣文</span>
+**引用** 行頭で <span class="mcode">&gt; 文</span>
 
 * 引用の行が続くと、まとめて1つの引用ブロックとしてレンダリングされる
 
