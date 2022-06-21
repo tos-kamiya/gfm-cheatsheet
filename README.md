@@ -3,13 +3,15 @@
 GFM(GitHub Flavored Markdown)のチートシート。
 授業資料として作成。
 
-ライセンス:
+#### ライセンス
 
 Unlicense
 
-作り方:
+#### PDFの作成方法
 
-VSCodeでgfm-cheatsheet.mdを開いて、Markdown PDFでPDFとしてエクスポート。
+* gfm-cheatsheet.htmlをFirefoxで表示して印刷
 
-* Markdown-pdf: Display Header Footerのチェックを外して、ヘッダやフッタが出力されないように
-* フォントは[PremolJP](https://github.com/yuru7/PlemolJP)を利用しています。感謝。
+#### 謝辞
+
+* フォントは[PremolJP](https://github.com/yuru7/PlemolJP)を利用しています。
+* CSSは[pixelbrackets/gfm-stylesheet](https://github.com/pixelbrackets/gfm-stylesheet)を利用しています。
