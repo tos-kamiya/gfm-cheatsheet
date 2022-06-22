@@ -3,6 +3,8 @@
 GFM(GitHub Flavored Markdown)のチートシート。
 授業資料として作成。
 
+<https://tos-kamiya.github.io/gfm-cheatsheet/>
+
 #### ライセンス
 
 Unlicense
