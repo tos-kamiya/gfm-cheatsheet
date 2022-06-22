@@ -7,13 +7,20 @@
 <link href="gfm.css" type="text/css" rel="stylesheet"/>
 
 <style>
-body {
-    margin: 0;
-}
-
 * {
     font-family: 'PlemolJP', monospace;
     line-height: 175%;
+}
+
+body {
+    margin: 0;
+    padding: 10pt;
+}
+
+@media screen and (min-width: 595pt) {
+    body {
+        width: 595pt;
+    }
 }
 
 tbody {
@@ -45,9 +52,9 @@ span.bolded {
 </style>
 
 </head>
-<body>
-<div style="float: right;">2022.06.22 rev.2</div>
+<body style="position: relative;">
 <h3>GFM(GitHub Flavored Markdown) チートシート</h3>
+<div style="position: absolute; top: 10pt; right: 10pt;">2022.06.23</div>
 
 <p>※ <span class="mcode">␣</span>は省略できないスペース</p>
 
