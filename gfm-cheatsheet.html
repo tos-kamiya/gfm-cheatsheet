@@ -38,11 +38,15 @@ span.mcode {
     background-color: #aa140015;
     margin: 0.1em;
 }
+
+span.bolded {
+    font-weight: 600;
+}
 </style>
 
 </head>
 <body>
-<div style="float: right;">2022.06.22</div>
+<div style="float: right;">2022.06.22 rev.2</div>
 <h3>GFM(GitHub Flavored Markdown) チートシート</h3>
 
 <p>※ <span class="mcode">␣</span>は省略できないスペース</p>
@@ -80,7 +84,7 @@ span.mcode {
 </td>
 </tr>
 <tr>
-<td>リンク・脚注<br>(行内)</td>
+<td>リンク・<br>画像・脚注<br>(行内)</td>
 <td>
 <span class="mcode">&#91;リンクの見出し&#93;(https://〜URL〜)</span><br>
 
@@ -98,11 +102,11 @@ span.mcode {
 <tr>
 <td class="cat">コード</td>
 <td>
-<div class="mcode">&#96;&#96;&#96;<br>
+<div class="mcode">&#96;&#96;&#96;言語名<br>
 コード1行目<br>
 コード2行目<br>
 &#96;&#96;&#96;</div>
-※ 1行目に<span class="mcode">&#96;&#96;&#96;python</span>などと言語名を書くとシンタックスハイライト<br>
+※ 1行目の言語名のところに、コードの言語に応じて<span class="bolded">c</span>, <span class="bolded">python</span>, <span class="bolded">ruby</span>, <span class="bolded">java</span>などと書く。言語名を省略するとシンタックスハイライトされない<br>
 </td>
 </tr>
 <tr>
@@ -130,8 +134,8 @@ span.mcode {
 <td class="cat">その他</td>
 <td>
 HTMLのタグ<span class="mcode">&lt;....&gt;</span>や特殊文字<span class="mcode">&....;</span>や<span class="mcode">&lt;!-- コメント --&gt;</span><br>
-行末のスペース2つ（<span class="mcode">␣␣</span>） 行間の小さい改行<br>
-空白行 通常の改行<br>
+行末のスペース2つ（<span class="mcode">␣␣</span>）  &rarr; 行間の小さい改行<br>
+<span class="bolded">空白行</span> &rarr; 通常の改行<br>
 </td>
 </tr>
 </table>
