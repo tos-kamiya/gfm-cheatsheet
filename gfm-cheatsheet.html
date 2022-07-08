@@ -39,10 +39,17 @@ span.mcoden {
     background-color:#FF7F5060;
 }
 
-div.mcode,
 span.mcode {
     font-weight: 600;
     background-color: #FF7F5060;
+    margin: 0.1em;
+}
+
+div.mcode {
+    font-weight: 600;
+    border: solid 2px #FF7F5060;
+    background-color: #FF7F5010;
+    border-radius: 5px;
     margin: 0.1em;
 }
 
@@ -118,12 +125,6 @@ span.bolded {
 </td>
 </tr>
 <tr>
-<td>引用</td>
-<td>
-<span class="mcode">&gt; 引用行</span> ※ 連続すると、1つのブロックとしてレンダリング<br>
-</td>
-</tr>
-<tr>
 <td>テーブル</td>
 <td>
 <div class="mcode">| ヘッダ1 | ヘッダ2 | ヘッダ3 |<br>
@@ -133,6 +134,12 @@ span.bolded {
 </div>
 ※ ヘッダ行と<span class="mcode">|---|</span>の行は省略できない<br>
 ※ <span class="mcode">---</span>は3文字以上であれば、何文字でもよい<br>
+</td>
+</tr>
+<tr>
+<td>引用</td>
+<td>
+<span class="mcode">&gt; 引用行</span> ※ 連続すると、1つのブロックとしてレンダリング<br>
 </td>
 </tr>
 </table>
